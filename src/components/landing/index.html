@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotation Around a Point</title>
+
+  <style>
+    * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+    .main {
+      width: 100vw;
+      height: 100vh;
+      background-color: #1e2231;
+      border-color: #EEE;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .main > * {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .theSmiley {
+      width: 50px;
+      height: 50px;
+    }
+
+    .orange img {
+      width: 50px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+
+    .item {
+      animation: spinAround 15s linear infinite;
+    }
+
+    @keyframes spinAround {
+      from {
+        transform: rotate(0deg) translate(140px) scale(.7);
+      }
+      to {
+        transform: rotate(360deg) translate(140px) scale(.7);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <img class="theSmiley" src="https://www.kirupa.com/icon/1f385.svg">
+    <div class="item" style="animation-delay: -1.5s;">
+      <img src="https://www.kirupa.com/icon/1f9e6.svg">
+    </div>
+    <div class="item" style="animation-delay: -3s;">
+      <img src="https://www.kirupa.com/icon/1f36a.svg">
+    </div>
+    <div class="item" style="animation-delay: -4.5s;">
+      <img src="https://www.kirupa.com/icon/1f95b.svg">
+    </div>
+    <div class="item" style="animation-delay: -6s;">
+      <img src="https://www.kirupa.com/icon/2603.svg">
+    </div>
+    <div class="item" style="animation-delay: -7.5s;">
+      <img src="https://www.kirupa.com/icon/1f381.svg">
+    </div>
+    <div class="item" style="animation-delay: -9s;">
+      <img src="https://www.kirupa.com/icon/1f98c.svg">
+    </div>
+    <div class="item" style="animation-delay: -10.5s;">
+      <img src="https://www.kirupa.com/icon/2744.svg">
+    </div>
+    <div class="item" style="animation-delay: -12s;">
+      <img src="https://www.kirupa.com/icon/1f31f.svg">
+    </div>
+    <div class="item" style="animation-delay: -13.5s;">
+      <img src="https://www.kirupa.com/icon/1f525.svg">
+    </div>
+    <div class="item" style="animation-delay: -15s;">
+      <img src="https://www.kirupa.com/icon/1f384.svg">
+    </div>
+  </div>
+</body>
+
+</html>

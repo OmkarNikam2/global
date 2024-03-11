@@ -1,0 +1,112 @@
+.circle {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%); */
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(120, 19, 19);
+    z-index: -1;
+}
+
+.cursor1 {
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    z-index: 999;
+}
+
+/* .outercircle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 50px;
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+} */
+.cursor1 {
+    position: absolute;
+    top: -10%;
+    right: 0%;
+    transform: rotateZ(-69deg);
+}
+
+.cursor2 {
+    position: absolute;
+    top: -10%;
+    right: 50%;
+    transform: rotateZ(-22deg);
+}
+
+.cursor3 {
+    position: absolute;
+    top: -10%;
+    right: 100%;
+    transform: rotateZ(235deg);
+}
+
+.cursor4 {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: rotateZ(190deg);
+}
+
+.cursor5 {
+    position: absolute;
+    bottom: -10%;
+    left: -10%;
+    transform: rotateZ(152deg);
+}
+
+.cursor6 {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: rotateZ(107deg);
+}
+
+.cursor7 {
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    transform: rotateZ(62deg);
+}
+
+.cursor8 {
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    transform: rotateZ(32deg);
+}
+
+.size {
+    width: 33px;
+    height: 29px;
+}
+
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8 {
+    stroke-width: 0px;
+    fill: #000;
+}
+
+.cls-9{
+    fill: #8f2d56;
+}
+
+.svg-height {
+    height: 100vh;
+    width: 100vw;
+    /* scale: 0.25; */
+}
